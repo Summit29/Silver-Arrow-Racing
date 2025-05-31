@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Silver Arrow Racing</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", sans-serif;
+      background: #0a0a0a;
+      color: #fff;
+    }
+
+    header {
+      background: #111;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      color: #ff2c2c;
+      font-size: 2.5rem;
+    }
+
+    nav {
+      background: #1a1a1a;
+      text-align: center;
+      padding: 10px;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .hero {
+      background: url('https://images.unsplash.com/photo-1574920163782-056f1eb93371?auto=format&fit=crop&w=1950&q=80') center/cover no-repeat;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .hero h2 {
+      background: rgba(0, 0, 0, 0.7);
+      padding: 20px;
+      font-size: 2rem;
+      color: #fff;
+    }
+
+    .team-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 20px;
+      text-align: center;
+    }
+
+    .team-grid div {
+      background: #222;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      background: #111;
+      border: none;
+      color: #fff;
+    }
+
+    .contact-form button {
+      background: #ff2c2c;
+      padding: 10px 20px;
+      border: none;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    footer {
+      background: #111;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Silver Arrow Racing</h1>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#schedule">Schedule</a>
+    <a href="#team">Team</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero">
+    <h2>Pushing Limits. Racing Virtually. Winning Globally.</h2>
+  </div>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Silver Arrow Racing is a premier Esports Racing team competing in top-tier sim racing leagues worldwide. We're passionate about speed, precision, and pushing the boundaries of digital motorsports.</p>
+  </section>
+
+  <section id="schedule">
+    <h2>Upcoming Races</h2>
+    <ul>
+      <li>June 15 - Nürburgring 24h - iRacing</li>
+      <li>July 10 - Spa-Francorchamps Endurance - iRacing</li>
+      <li>August 5 - Monza GT3 Sprint - iRacing</li>
+    </ul>
+  </section>
+
+  <section id="team">
+    <h2>Meet the Team</h2>
+    <div class="team-grid">
+      <div>
+        <h3>AceDriver23</h3>
+        <p>Team Captain - GT3 Specialist</p>
+      </div>
+      <div>
+        <h3>SpeedMonk</h3>
+        <p>iRacing Strategist</p>
+      </div>
+      <div>
+        <h3>NightRacerX</h3>
+        <p>Endurance Pro</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea rows="4" placeholder="Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 Silver Arrow Racing. All rights reserved.
+  </footer>
+
+</body>
+</html>
